@@ -1,0 +1,4 @@
+.barra-degradada {
+  height: 11px;
+  background: linear-gradient(to right, #1f2671, #0080ff);
+}

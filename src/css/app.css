@@ -2,3 +2,39 @@
   height: 11px;
   background: linear-gradient(to right, #1f2671, #0080ff);
 }
+
+.bg-nosotros{
+  background-color: #ECE9E7;
+}
+
+.bg-tpgaming{
+  background-color: #918E81;
+}
+
+.espacio{
+  padding: 100px 0px 100px 0px;
+}
+
+
+/* .custom-nav {
+  bottom: -1000px;
+  top: auto;
+  color: black;
+  font-size: 32px;
+  width: auto;
+  height: auto;
+  position: absolute;
+}
+
+.swiper-button-prev.custom-nav {
+  left: 40%;
+}
+
+.swiper-button-next.custom-nav {
+  right: 40%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 32px;
+} */

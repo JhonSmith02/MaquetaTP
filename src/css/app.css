@@ -15,6 +15,25 @@
   padding: 100px 0px 100px 0px;
 }
 
+.bg-sedes{
+  background-color: #434343;
+}
+
+
+/* Tamaño fijo de miniaturas y centrado */
+.swiperThumbs .swiper-slide {
+  width: 20%;               /* 5 miniaturas en línea */
+  cursor: pointer;
+}
+.swiperThumbs .swiper-slide img {
+  opacity: 0.6;
+  transition: opacity .3s;
+}
+.swiperThumbs .swiper-slide-thumb-active img {
+  opacity: 1;
+}
+
+
 
 /* .custom-nav {
   bottom: -1000px;

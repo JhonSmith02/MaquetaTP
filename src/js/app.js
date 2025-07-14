@@ -9,6 +9,36 @@ const swiper = new Swiper(".mySwiper", {
     }
   });
 
+  const swiperCard = new Swiper(".swiperCard", {
+    loop: true,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+    },
+  });
+
+  const swiperGallery = new Swiper(".swiperGallery", {
+  loop: true,
+  centeredSlides: true,
+  spaceBetween: 20,
+  slidesPerView: 'auto',
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
 
 
   const configs = [
